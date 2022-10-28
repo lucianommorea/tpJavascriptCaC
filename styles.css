@@ -1,0 +1,74 @@
+.whiteCol {
+    color: whitesmoke;
+}
+.whiteCol:hover {
+    color: whitesmoke;
+}
+.greyCol {
+    background-color: rgb(50, 50, 50);
+}
+.greenCol {
+    color: green;
+}
+.greenCol:visited {
+    color: green;
+}
+.cardsAll {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    padding-left: 2%;
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 3%;
+}
+.card1{
+    width: 30%;
+    border: 1px solid blue;
+}
+.card2{
+    width: 30%;
+    border: 1px solid green;
+}
+.card3{
+    width: 30%;
+    border: 1px solid rgb(220, 220, 20);
+}
+.venta{
+    display: grid;
+    place-content: center;
+}
+.formAll {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.title{
+    margin-left: 0.5vw;
+    text-align:start;
+}
+.total{
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.buttonsAll{
+    width: 60%;
+    margin: auto;
+    min-width: 400px;
+    gap: 3%;
+}
+.btn1 {
+    width: 49%;
+    background-color: rgb(41, 128, 60);
+}    
