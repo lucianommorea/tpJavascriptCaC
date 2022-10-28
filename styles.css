@@ -27,15 +27,15 @@
 }
 .card1{
     width: 30%;
-    border: 1px solid blue;
+    border: 2px solid blue;
 }
 .card2{
     width: 30%;
-    border: 1px solid green;
+    border: 2px solid green;
 }
 .card3{
     width: 30%;
-    border: 1px solid rgb(220, 220, 20);
+    border: 2px solid rgb(220, 220, 20);
 }
 .venta{
     display: grid;
