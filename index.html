@@ -69,15 +69,15 @@
 
         <div class="row formAll">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="nombre1">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="apellido1">
             </div>
         </div>
         <div class="row formAll">
             <div class="col">
-                <input type="text" class="form-control" placeholder="Correo" aria-label="Correo">
+                <input type="text" class="form-control" placeholder="Correo" aria-label="Correo" id="correo1">
             </div>
         </div>
         <div class="row formAll">
@@ -90,7 +90,7 @@
         </div>
         <div class="row formAll">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidad1">
+              <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidad1">
             </div>
             <div class="col">
                 <select class="form-select" id="select1">
@@ -135,6 +135,9 @@
     </div>
       
     <script>
+        let nombre = document.getElementById('nombre1');
+        let apellido = document.getElementById('apellido1');
+        let correo = document.getElementById('correo1');
         let cantidad = document.getElementById('cantidad1');
         let tipo = document.getElementById('select1');
         let agregar = document.getElementById('totalPagar');
@@ -157,6 +160,9 @@
         function borrar(){
             agregar.innerHTML = 'Total a Pagar: $';
             cantidad.value= '';
+            nombre.value= '';
+            apellido.value= '';
+            correo.value= '';
         }
         
     </script>
